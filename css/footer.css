@@ -1,5 +1,3 @@
-@import url("../global.css");
-
 /* ==== FOOTER ==== */
 .footer {
   background: var(--color-primary);
@@ -16,8 +14,8 @@
 
 .footer__section h3 {
   font-size: var(--font-size-xl);
-  margin-bottom: var(--spacing-lg);
   color: var(--color-accent);
+  margin-bottom: var(--spacing-sm);
 }
 
 .footer__links {
@@ -25,7 +23,7 @@
 }
 
 .footer__link {
-  padding: var(--spacing-xs) 0;
+  margin-bottom: var(--font-size-xs);
 }
 
 .footer__link a {
